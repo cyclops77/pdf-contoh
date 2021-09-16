@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PDFController@index');
+Route::view('/x', 'welcome');
